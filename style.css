@@ -164,6 +164,12 @@ body {
     margin-right: 10px; /* Jarak antara gambar dan teks */
     max-width: 100%;
   }
+
+  .google button:hover {
+    background-color: grey;
+    color: #fff;
+  }
+
   .signup {
     color: var(--black-9001-a-1-a-1-a, #1A1A1A);
     font-feature-settings: 'clig' off, 'liga' off;

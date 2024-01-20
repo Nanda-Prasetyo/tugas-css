@@ -1,10 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    /* margin: 0;
-    padding: 48px;
-    width: auto; */
+    margin: 0;
+    width: auto;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     height: 100vh;
     background-color: #ffffff;
@@ -12,8 +11,6 @@ body {
 
   .container {
     display: flex;
-    /* width: 1440px; */
-    /* height: 900.5px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
   }

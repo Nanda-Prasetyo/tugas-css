@@ -164,3 +164,30 @@ body {
     margin-right: 10px; /* Jarak antara gambar dan teks */
     max-width: 100%;
   }
+  .signup {
+    color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 0.3px;
+    text-align: center;
+    justify-content: center;
+  }
+  .signup a {
+    color: #8053FF;
+  }
+
+  footer {
+    color: #666666; /* Warna teks footer */
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.4px;
+  }

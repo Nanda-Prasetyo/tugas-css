@@ -144,6 +144,10 @@ body {
     flex: 1 0 0;
   }
 
+  .forgotpassword button:hover {
+    color: #0056b3;
+  }
+
   .google img {
     display: flex;
     width: 20px;
@@ -189,6 +193,10 @@ body {
   }
   .signup a {
     color: #8053FF;
+  }
+
+  .signup a:hover {
+    color: red;
   }
 
   footer {

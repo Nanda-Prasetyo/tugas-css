@@ -184,10 +184,13 @@ body {
     color: #666666; /* Warna teks footer */
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px; /* 133.333% */
     letter-spacing: -0.4px;
+    display: flex;
+    justify-content: center;
+    padding: auto 48px 48px 48px;
   }

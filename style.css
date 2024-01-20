@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
 
   .container {
@@ -98,6 +98,7 @@ body {
   }
 
   input {
+    margin: 6px;
     display: flex;
     width: 360px;
     padding: 8px 8px 8px 16px;
@@ -117,9 +118,23 @@ body {
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 6px;
   }
 
-  .google {
+  .forgotpassword button {
+    color: #007AFF;
+    background-color: white;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 0.3px;
+  }
+
+  button.google {
     margin: 100px 0 0 0;
     /* background-color: blue; */
     color: #fff;

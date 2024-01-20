@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 48px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,19 +14,20 @@ body {
     display: flex;
     width: 1440px;
     height: 900.5px;
-    overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
   }
 
   .image-container {
-    flex: 1;
-    overflow: hidden;
+    display: flex;
+    /* flex: 1 1 1 1; */
+    align-self: stretch;
   }
 
   .image-container img {
+    display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -34,9 +36,35 @@ body {
     padding: 20px;
   }
 
+  .logo-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+  }
+
   form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 48px 48px;
+  }
+
+  .form-container .logo {
+    color: var(--Main-Body, #23155B);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    flex: auto;
+  }
+  .nice {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
   }
 
   label {
@@ -52,7 +80,17 @@ body {
   }
 
   button {
-    background-color: #4caf50;
+    background-color: #8053FF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .google {
+    margin: 100px 0 0 0;
+    /* background-color: blue; */
     color: #fff;
     padding: 10px;
     border: none;

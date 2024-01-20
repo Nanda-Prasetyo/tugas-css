@@ -100,9 +100,14 @@ body {
   input {
     display: flex;
     width: 360px;
-    padding: 8px;
+    padding: 8px 8px 8px 16px;
     margin-bottom: 16px;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: none;
+    background-color: #f2f2f2;
   }
 
   button {

@@ -140,6 +140,11 @@ body {
     flex: 1 0 0;
   }
 
+  .google img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
   .google button {
     margin: 100px 0 0 0;
     /* background-color: blue; */
@@ -150,4 +155,13 @@ body {
     width: 100%;
     margin: 32px 0;
     background-color: #333333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .google img {
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+    max-width: 100%;
   }

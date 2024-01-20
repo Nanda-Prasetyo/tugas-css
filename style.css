@@ -65,6 +65,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    padding: 48px 0 24px;
   }
 
   label {
@@ -72,8 +73,33 @@ body {
     margin-bottom: 8px;
   }
 
+  label[for="username"] {
+    color: var(--black-800333333, #333);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 109.091% */
+    letter-spacing: 0.3px;
+    padding: 0 16px;
+  }
+
+  label[for="password"] {
+    color: var(--black-800333333, #333);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 109.091% */
+    letter-spacing: 0.3px;
+    padding: 0 16px;
+  }
+
   input {
-    width: 100%;
+    display: flex;
+    width: 360px;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
